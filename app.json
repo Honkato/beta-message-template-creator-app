@@ -16,10 +16,19 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "softwareKeyboardLayoutMode": "resize",
+      "edgeToEdgeEnabled": false,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.messagetemplatecreatorapp"
     },
+    "newArchEnabled": false,
+
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-sharing",
+      "expo-router"
+    ]
   }
 }
